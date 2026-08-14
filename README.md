@@ -515,21 +515,14 @@ Therefore, the **baseline Random Forest** was selected as the preferred model.
 
 ### Best Parameters
 
-The exact values should be filled from the final notebook output:
-
-```text
-n_estimators = <your value>
-max_depth = <your value>
-max_features = <your value>
-```
-
+n_estimators = 200
+max_depth = 10
+max_features = None
 ### OOB Score
 
-```text
-<your OOB score>
-```
+0.8354430379746836
 
-These values should be replaced with the actual results before final submission.
+
 
 ---
 
@@ -539,9 +532,9 @@ A multivariate Linear Regression model was trained to predict passenger Fare.
 
 | Model             |          MAE |          RMSE |          R² |          Adjusted R² |
 | ----------------- | -----------: | ------------: | ----------: | -------------------: |
-| Linear Regression | `<your MAE>` | `<your RMSE>` | `<your R²>` | `<your Adjusted R²>` |
+| Linear Regression |    21.1386   |   41.7465     |   0.3468    |       0.2993         |
 
-The exact regression values should be taken directly from the final notebook.
+
 
 ---
 
@@ -1081,7 +1074,6 @@ Pranay-capstone/
             └── chroma/
 ```
 
-> Adjust the folder names in this tree to match your actual repository structure before submission.
 
 ---
 
