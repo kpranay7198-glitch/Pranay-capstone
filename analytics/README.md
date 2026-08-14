@@ -205,11 +205,9 @@ The baseline Random Forest model achieved the highest F1-score while maintaining
 GridSearchCV was used to optimize the Random Forest classifier.
 
 ### Best Parameters
-
-- n_estimators = **<your value>**
-- max_depth = **<your value>**
-- max_features = **<your value>**
-
+n_estimators = 200
+max_depth = 10
+max_features = None
 ### Out-of-Bag (OOB) Score
 
 **<your OOB score>**
